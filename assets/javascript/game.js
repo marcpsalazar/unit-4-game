@@ -1,11 +1,11 @@
 $( document ).ready(function(){
 
 
-var numChoice = Math.floor(Math.random() * 100) + 15;
-var gemNum1 = Math.floor(Math.random() * 10) + 1 ;
-var gemNum2 = Math.floor(Math.random() * 10) + 1 ;
-var gemNum3 = Math.floor(Math.random() * 10) + 1 ;
-var gemNum4 = Math.floor(Math.random() * 10) + 1 ;
+var numChoice = Math.floor(Math.random() * 101) + 19;
+var gemNum1 = Math.floor(Math.random() * 11) + 1 ;
+var gemNum2 = Math.floor(Math.random() * 11) + 1 ;
+var gemNum3 = Math.floor(Math.random() * 11) + 1 ;
+var gemNum4 = Math.floor(Math.random() * 11) + 1 ;
 
 var score = 0;
 var wins = 0;
