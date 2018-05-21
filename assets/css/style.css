@@ -1,0 +1,66 @@
+body {
+  font-family: 'Play', sans-serif;
+  background: url('./pattern.jpg');
+}
+
+.container {
+  padding: 20px;
+}
+
+#ranNumber, #scoreTotal, #winStats {
+  padding: 60px;
+  text-align: center;
+}
+
+#winStats {
+  font-size: 30px;
+}
+
+#ranNumber, #scoreTotal {
+  font-size: 50px;
+  color: rgb(196, 40, 40);
+  padding-top: 70px;
+}
+
+#gameTitle {
+  color: white;
+  background-color: rgba(11, 90, 92, 0.99);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#instructions {
+  background-color: rgba(143, 59, 76, 0.70);
+  color: white;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 20PX;
+}
+
+li {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+#gemsRow {
+  margin-bottom: 10px;
+}
+
+#ranNumber, #winStats, #scoreTotal {
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  background-color: rgba(123, 236, 137, 0.48);
+}
+
+#numStats {
+  margin-bottom: 10px;
+}
+
+ #scoreRow {
+  margin-top: 10px;
+}
